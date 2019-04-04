@@ -1,1 +1,1 @@
-# school-club-Java
+# code-practice
