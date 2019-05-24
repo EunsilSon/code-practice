@@ -30,9 +30,7 @@ public class Hw3week {
 
         Scanner sc1 = new Scanner(System.in);
 
-        int n1;
-
-        n1 = sc1.nextInt();
+        int n1 = sc1.nextInt();
 
         switch (n1) {
             case 1:
@@ -75,11 +73,8 @@ public class Hw3week {
 
         Scanner sc2 = new Scanner(System.in);
 
-        double height;
-        double weight;
-
-        height = sc2.nextInt();
-        weight = sc2.nextInt();
+        double height = sc2.nextInt();
+        double weight = sc2.nextInt();
 
         double standard = ((height - 100) * 0.9);
 
@@ -101,13 +96,9 @@ public class Hw3week {
 
         Scanner sc3 = new Scanner(System.in);
 
-        int a;
-        int b;
-        int c;
-
-        a = sc3.nextInt();
-        b = sc3.nextInt();
-        c = sc3.nextInt();
+        int a = sc3.nextInt();
+        int b = sc3.nextInt();
+        int c = sc3.nextInt();
 
         if (a > b || a > c) {
             System.out.println(a);
