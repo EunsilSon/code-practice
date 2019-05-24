@@ -6,9 +6,9 @@ public class Hw3week {
         거리를 입력받아 그에 맞는 값을 출력하는 코드를 작성.
         */
 
-        Scanner sc4 = new Scanner(System.in);
+        Scanner sc1 = new Scanner(System.in);
 
-        int distance = sc4.nextInt();
+        int distance = sc1.nextInt();
 
         if ( distance >= 0 && distance < 100) {
             System.out.println("5.0");
@@ -28,9 +28,9 @@ public class Hw3week {
         1부터 9사이가 아니면 "OTHER"를 출력한다.
          */
 
-        Scanner sc1 = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
 
-        int n1 = sc1.nextInt();
+        int n1 = sc2.nextInt();
 
         switch (n1) {
             case 1:
@@ -71,10 +71,10 @@ public class Hw3week {
         표준체중 = ( 키 - 100 ) x 0.9
         */
 
-        Scanner sc2 = new Scanner(System.in);
+        Scanner sc3 = new Scanner(System.in);
 
-        double height = sc2.nextInt();
-        double weight = sc2.nextInt();
+        double height = sc3.nextInt();
+        double weight = sc3.nextInt();
 
         double standard = ((height - 100) * 0.9);
 
@@ -94,11 +94,11 @@ public class Hw3week {
         3개의 숫자를 입력 받아서, 가장 큰 수를 출력하는 코드를 작성하라.
          */
 
-        Scanner sc3 = new Scanner(System.in);
+        Scanner sc4 = new Scanner(System.in);
 
-        int a = sc3.nextInt();
-        int b = sc3.nextInt();
-        int c = sc3.nextInt();
+        int a = sc4.nextInt();
+        int b = sc4.nextInt();
+        int c = sc4.nextInt();
 
         if (a > b || a > c) {
             System.out.println(a);
