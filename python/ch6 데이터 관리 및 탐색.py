@@ -58,14 +58,14 @@ index = "0"
 bucketlist = [11, 9, 15, 5, 2]
 
 def when_click_object_on():
-    index = 1    // 리스트의 첫 번째 항목 부터 찾아보기 위해서 1을 대입함
+    index = 1    # 리스트의 첫 번째 항목 부터 찾아보기 위해서 1을 대입함
     Entry.input("찾고 싶은 데이터를 입력하세요.")
     for i in range(len(bucketlist)):
-        if (bucketlist[index - 1] == Entry.answer()):    // 1이 저장된 index에 -1을 해 0번째, 즉 첫 번째 항목부터 엔트리 답과 비교함
+        if (bucketlist[index - 1] == Entry.answer()):    # 1이 저장된 index에 -1을 해 0번째, 즉 첫 번째 항목부터 엔트리 답과 비교함
             Entry.print((index + "번 목록에 있습니다."))
             Entry.stop_code("all")
         Entry.print("찾지 못했습니다.")
-        index += 1    // index에 1씩 더해가면서 내림차순으로 항목을 찾음
+        index += 1    # index에 1씩 더해가면서 내림차순으로 항목을 찾음
 
 # 데이터 정렬 프로그램
 
@@ -99,16 +99,16 @@ array = []
 
 def when_click_object_on():
     index = 1
-    dsize = (len(array) - 1)    // 첫 번째 항목부터 찾기 위함
+    dsize = (len(array) - 1)    # 첫 번째 항목부터 찾기 위함
     for i in range(dsize):
         for j in range(dsize):
-            if (array[index - 1] > array[index]):    // 첫 번째 항목이 두 번째 항목보다 크다면
-                temp = array[index - 1]    // 변수 temp에 첫 번째 항목을 저장하고
-                array[index - 1] = array[index]    // 두 번째 항목을 첫 번째 항목에 대입
-                array[index] = temp    // temp에 저장된 값을 두 번째 항목에 대입
-            index += 1    // 다음 순서로 넘어가기 위해 +1
+            if (array[index - 1] > array[index]):    # 첫 번째 항목이 두 번째 항목보다 크다면
+                temp = array[index - 1]    # 변수 temp에 첫 번째 항목을 저장하고
+                array[index - 1] = array[index]    # 두 번째 항목을 첫 번째 항목에 대입
+                array[index] = temp    # temp에 저장된 값을 두 번째 항목에 대입
+            index += 1    # 다음 순서로 넘어가기 위해 +1
         index = 1
-        dsize += -1    // 첫 번째 항목과 두 번째 항목이 내림차순으로 있다면 반복 횟수를 -1하고 다음 순서로 넘어감
+        dsize += -1    # 첫 번째 항목과 두 번째 항목이 내림차순으로 있다면 반복 횟수를 -1하고 다음 순서로 넘어감
 
 # search 오브젝트의 파이선 코드
 
