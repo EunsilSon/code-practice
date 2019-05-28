@@ -1,6 +1,6 @@
 #버킷 리스트 관리 프로그램
 
-# insert 오브젝트의 파이선 코드
+# insert (내용 삽입)의 파이선 코드
 
 import Entry
 
@@ -11,7 +11,7 @@ def when_click_object_on():
     Entry.input("삽입할 내용을 입력하세요.")
     bucketlist.append(Entry.answer())
 
-# delete 오브젝트의 파이선 코드
+# delete (내용 삭제)의 파이선 코드
 
 import Entry
 
@@ -22,7 +22,7 @@ def when_click_object_on():
     Entry.input("몇 번째 목록을 삭제할까요? (숫자만 입력)")
     bucketlist.append(Entry.answer() - 1)
 
-# change 오브젝트의 파이선 코드
+# change (내용 변경)의 파이선 코드
 
 import Entry
 
@@ -35,7 +35,7 @@ def when_click_object_on():
     Entry.input("바꿀 내용을 입력하세요.")
     bucketlist[index - 1] = Entry.answer()
 
-# reset 오브젝트의 파이선 코드
+# reset (내용 전체 삭제)의 파이선 코드
 
 import Entry
 
@@ -50,7 +50,7 @@ def when_click_object_on():
 
 # 데이터 탐색 프로그램
 
-# Search 오브젝트의 파이선 코드
+# Search (내용 찾기)의 파이선 코드
 
 import Entry
 
@@ -69,7 +69,7 @@ def when_click_object_on():
 
 # 데이터 정렬 프로그램
 
-# insert1 오브젝트의 파이선 코드
+# insert1 (내용 삽입)의 파이선 코드
 
 import Entry
 
@@ -86,7 +86,7 @@ def when_click_object_on():
     for i in range(input):
         array.append(random.randint(1, 100))
 
-# sort 오브젝트의 파이선 코드
+# sort (내용 정렬)의 파이선 코드
 
 import Entry
 
@@ -110,7 +110,7 @@ def when_click_object_on():
         index = 1
         dsize += -1    # 첫 번째 항목과 두 번째 항목이 내림차순으로 있다면 반복 횟수를 -1하고 다음 순서로 넘어감
 
-# search 오브젝트의 파이선 코드
+# search (내용 탐색)의 파이선 코드
 
 import Entry
 
