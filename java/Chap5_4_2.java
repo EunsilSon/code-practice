@@ -10,7 +10,7 @@ public class Chap5_4_2 {
 
         do {
             System.out.println(sum);
-            sum --;
+            sum--;
         } while (sum >= 1);
     }
 }
