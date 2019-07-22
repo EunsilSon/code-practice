@@ -1,3 +1,6 @@
+/*
+예제 CondOp.java를 조건 연산자를 사용하고 않고 대신에 if ~ else문을 사용하는 형태로 수정해보자.
+ */
 public class Chap5_2 {
     public static void main(String[] args) {
 
