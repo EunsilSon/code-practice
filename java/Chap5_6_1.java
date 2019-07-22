@@ -1,3 +1,6 @@
+/*
+예제 ContinueBasic.java에 존재하는 while문을 for문으로 변경해보자.
+ */
 public class Chap5_6_1 {
     public static void main(String[] args) {
         int count = 0;
