@@ -1,3 +1,6 @@
+/*
+예제 SwithBreak.java를 switch문이 아닌 if ~ else문을 이용하는 형태로 변경해보자.
+ */
 public class Chap5_3_1 {
     public static void main(String[] args) {
         int n = 3;
