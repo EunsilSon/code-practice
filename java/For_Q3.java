@@ -1,7 +1,7 @@
-public class Hw4_Q3 {
+public class For_Q3 {
     public static void main(String[] args) {
         /*
-        3. *을 출력하여 다음과 같은 문양을 그려보자.
+        "*"을 출력하여 다음과 같은 문양을 그려보자.
             *
            **
           ***
