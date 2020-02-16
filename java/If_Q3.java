@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hw3_Q4 {
+public class If_Q3 {
     public static void main(String[] args) {
         /*
         3개의 숫자를 입력 받아서, 가장 큰 수를 출력하는 코드를 작성하라.
