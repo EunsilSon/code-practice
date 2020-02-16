@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hw3_Q3 {
+public class If_Q2 {
     public static void main(String[] args) {
         /*
         사용자로부터 키를 입력 받아서 표준 체중을 계산한 후에 사용자의 체중과 비교하여 저체중인지, 표준인지,
