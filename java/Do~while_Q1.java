@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Hw4_Q4 {
     public static void main(String[] args) {
         /*
-        4. 사용자가 0을 입력할 때까지 숫자를 더하는 프로그램을 작성하라. (do-while문 활용)
+        사용자가 0을 입력할 때까지 숫자를 더하는 프로그램을 작성하라. (do-while문 활용)
          */
         int result = 0;
 
