@@ -1,4 +1,4 @@
-public class Hw2_Q1 {
+public class Variable_Q3 {
     public static void main(String[] args) {
         /*
         문자형 변수는 정수형으로, 정수형 변수는 문자형 으로 바꾸시오.
