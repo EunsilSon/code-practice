@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hw3_Q2 {
+public class Switch_Q1 {
     public static void main(String[] args) {
         /*
         사용자가 입력한 값이 1, 2,... , 9이면 "ONE","TWO",... , "NINE"와 같이 출력하는 프로그램을 작성하라.
