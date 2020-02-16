@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hw3_Q1 {
+public class If_Q1 {
     public static void main(String[] args) {
         /*
         거리를 입력받아 그에 맞는 값을 출력하는 코드를 작성.
