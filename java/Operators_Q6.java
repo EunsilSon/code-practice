@@ -1,4 +1,4 @@
-public class Hw2_Q4 {
+public class Operators_Q6 {
     public static void main(String[] args) {
     /*
         성적들을 입력 받아 평균 등급을 계산하는 프로그램을 작성하여 제시되는 출력 형태가 되게 만드시오.
