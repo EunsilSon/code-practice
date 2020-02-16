@@ -1,7 +1,7 @@
 public class Operators_Q4 {
     public static void main(String[] args) {
         /*
-        가로, 세로, 높이를 입력받아 직육면체의 밑면의 넓이, 부피, 겉넓이를 구하는 프로그램을 작성하시오.
+        가로, 세로, 높이를 입력받아 직육면체의 밑면의 넓이, 부피, 겉넓이를 구하는 프로그램을 작성하라.
          */
         int height = 10;
         int width = 2;
