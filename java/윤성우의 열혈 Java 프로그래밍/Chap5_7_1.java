@@ -3,14 +3,16 @@
  */
 public class Chap5_7_1 {
     public static void main(String[] args) {
-        for (int num = 1; num < 9; num++) {
-            for (int sum = 1; sum <= 9; sum++) {
-                if ((num % 2) == 0) {
-                    System.out.println(num + " X " + sum + " = " + (num * sum));
-                    if (num == sum) {
-                        break;
-                    }
+        for (int i = 1; i < 9; i++) {
+            if ((i % 2) == 0) {    // 해당 되지 않는 단수 걸러내기
+            for (int j = 1; j <= 9; j++) {
+
+                if (i < j) {    // 단수와 곱할 수가 같지 않으면 반복 종료
+                    break;
+                }else
+                    System.out.println(i + " X " + j + " = " + (i * j));
                 }
+                System.out.println(" ");
             }
         }
     }

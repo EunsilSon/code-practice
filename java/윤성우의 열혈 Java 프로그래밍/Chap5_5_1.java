@@ -8,6 +8,6 @@ public class Chap5_5_1 {
         for (int num = 1; num <= 10; num++) {
             sum *= num;
         }
-        System.out.println(sum);
+        System.out.println("1부터 10까지의 곱의 결과: " + sum);
     }
 }
